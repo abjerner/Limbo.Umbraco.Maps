@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+<language alias="da" intName="Danish" localName="dansk" lcid="6" culture="da-DK">
+  <area alias="limboMaps">
+    <key alias="area">Areal</key>
+    <key alias="length">Længde</key>
+    <key alias="perimeter">Omkreds</key>
+    <key alias="vertices">Punkter</key>
+    <key alias="latitude">Længdegrad</key>
+    <key alias="longitude">Breddegrad</key>
+    <key alias="pointPlaceholder">Klik på kortet for at vælge en position.</key>
+  </area>
+</language>

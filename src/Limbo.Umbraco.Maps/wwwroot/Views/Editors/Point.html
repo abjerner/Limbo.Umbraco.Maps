@@ -1,0 +1,21 @@
+﻿<div class="limbo-maps limbo-point" ng-controller="Limbo.Umbraco.Maps.Point.Controller as vm">
+    <div class="limbo-maps-header">
+        <div class="limbo-maps-title">
+            <span ng-if="!vm.create">
+                <localize key="limboMaps_latitude">Latitude</localize>: {{vm.point.lat}},
+                <localize key="limboMaps_longitude">Longitude</localize>: {{vm.point.lng}}
+            </span>
+            <em ng-if="vm.create">
+                <localize key="limboMaps_pointPlaceholder">Click on the map to select a position.</localize>
+            </em>
+        </div>
+        <div class="limbo-maps-actions">
+            <button type="button" class="btn btn-default" ng-click="vm.reset()" ng-if="!vm.create">
+                <localize key="general_clear">Clear</localize>
+            </button>
+        </div>
+    </div>
+    <div class="limbo-maps-content">
+        <div id="{{vm.uniqueId}}" style="{{model.config.height}};"></div>
+    </div>
+</div>

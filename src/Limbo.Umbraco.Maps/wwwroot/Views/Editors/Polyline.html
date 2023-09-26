@@ -1,0 +1,32 @@
+﻿<div class="limbo-maps limbo-polyline" ng-controller="Limbo.Umbraco.Maps.Polyline.Controller as vm">
+    <div class="limbo-maps-header">
+        <div class="limbo-maps-title">
+            <div ng-if="!vm.create && vm.stats">
+                <div ng-if="vm.stats">
+                    <span ng-repeat="stat in vm.stats">
+                        <span ng-if="$index > 0">&ndash;</span>
+                        <span ng-if="stat.key">{{stat.key}}:</span>
+                        <span>{{stat.value}}</span>
+                    </span>
+                </div>
+            </div>
+            <em ng-if="vm.create">
+                <localize key="limboMaps_polylinePlaceholder">Click on the map to draw a new polyline.</localize>
+            </em>
+        </div>
+        <div class="limbo-maps-actions">
+            <button type="button" class="btn btn-default" ng-click="vm.focus()" ng-if="!vm.create">
+                <localize key="limboMaps_focus">Focus</localize>
+            </button>
+            <button type="button" class="btn btn-default" ng-click="vm.reset()" ng-if="!vm.create">
+                <localize key="general_clear">Clear</localize>
+            </button>
+        </div>
+    </div>
+    <div class="limbo-maps-content">
+        <div id="{{vm.uniqueId}}" style="{{model.config.height}};"></div>
+    </div>
+    <pre>{{vm.stats | json}}</pre>
+    <pre>{{model.value | json}}</pre>
+    <pre>{{model.config | json}}</pre>
+</div>

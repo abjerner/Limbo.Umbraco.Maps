@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+<language alias="en" intName="English (US)" localName="English (US)" lcid="" culture="en-US">
+  <area alias="limboMaps">
+    <key alias="areal">Area</key>
+    <key alias="length">Length</key>
+    <key alias="perimeter">Perimeter</key>
+    <key alias="vertices">Vertices</key>
+    <key alias="latitude">Latitude</key>
+    <key alias="longitude">Longitude</key>
+    <key alias="pointPlaceholder">Click on the map to select a position.</key>
+  </area>
+</language>

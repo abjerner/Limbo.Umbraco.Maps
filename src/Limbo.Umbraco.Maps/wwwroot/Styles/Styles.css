@@ -1,0 +1,17 @@
+﻿.test {
+  color: red;
+}
+.limbo-maps-header {
+  display: flex;
+}
+.limbo-maps-title {
+  flex: 1;
+  line-height: 32px;
+}
+.limbo-maps-content {
+  margin-top: 10px;
+  border: 1px solid #ccc;
+}
+.limbo-maps-content > div {
+  height: 550px;
+}

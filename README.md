@@ -44,3 +44,45 @@ or the NuGet Package Manager:
 ```
 Install-Package Limbo.Umbraco.Maps -Version 1.0.0-alpha001
 ```
+
+
+
+
+
+<br /><br />
+
+## Property Editos
+
+- **Limbo Maps - Circle**  
+Property editor for drawing a single circle on a map.
+
+- **Limbo Maps - Point**  
+Property editor for drawing a single point on a map.
+
+- **Limbo Maps - Polygon**  
+Property editor for drawing a single polygon on a map.
+
+- **Limbo Maps - Polyline**  
+Property editor for drawing a single polyline on a map.
+
+- **Limbo Maps - Rectangle**  
+Property editor for drawing a single rectangle on a map.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

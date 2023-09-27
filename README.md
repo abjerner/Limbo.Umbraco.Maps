@@ -72,7 +72,11 @@ Property editor for drawing a single rectangle on a map.
 
 
 
+<br /><br />
 
+## Credits
+
+Vectors and icons by <a href="https://github.com/Viglino/font-gis?ref=svgrepo.com" target="_blank">Viglino</a> in GPL License via <a href="https://www.svgrepo.com/" target="_blank">SVG Repo</a>
 
 
 
